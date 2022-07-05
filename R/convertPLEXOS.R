@@ -13,5 +13,7 @@
 #'
 #' @export
 convertPLEXOS <- function(x) {
-  x %>% toolCountryFill(fill = 0, verbosity = 2) %>% return()
+  x %>%
+    toolCountryFill(fill = 0, verbosity = 2) %>%
+    return()
 }

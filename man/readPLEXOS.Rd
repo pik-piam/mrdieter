@@ -2,7 +2,7 @@
 % Please edit documentation in R/readPLEXOS.R
 \name{readPLEXOS}
 \alias{readPLEXOS}
-\title{Read PLEXOS Electricity Demand}
+\title{Read PLEXOS World 2015 Electricity Demand}
 \usage{
 readPLEXOS()
 }
@@ -10,7 +10,7 @@ readPLEXOS()
 A \code{\link[magclass:magclass-package]{magpie}} object.
 }
 \description{
-Read PLEXOS Electricity Demand
+Read PLEXOS World 2015 Electricity Demand
 }
 \author{
 Falk Benke
