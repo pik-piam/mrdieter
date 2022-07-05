@@ -1,0 +1,11 @@
+Package: mrdieter
+Type: Package
+Title: MadRat DIETER Input Data Package
+Version: 0.0.1.0
+RoxygenNote: 7.2.0
+Encoding: UTF-8
+Depends:
+    R(>= 2.10.0),
+    magclass(>= 3.17),
+    madrat(>= 2.5.1),
+    mrcommons(>= 1.7.1)
