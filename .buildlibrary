@@ -1,5 +1,5 @@
-ValidationKey: '191780'
+ValidationKey: '210991'
 AcceptedWarnings: ~
 AcceptedNotes: ~
 AutocreateReadme: yes
-allowLinterWarnings: yes
+allowLinterWarnings: no
