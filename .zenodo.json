@@ -1,6 +1,6 @@
 {
   "title": "mrdieter: MadRat DIETER Input Data Package",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "<p>The mrdieter package contains data preprocessing for the DIETER model.<\/p>",
   "creators": [
     {

@@ -14,10 +14,10 @@
 #' @export
 readPLEXOS <- function() {
 
-  .getHourOfYear <- function(time){
+  .getHourOfYear <- function(time) {
 
-    dayOfYear <- as.integer(format(strptime(time, "%d/%m/%Y"), '%j')) - 1
-    hourOfDay <- as.integer(format(strptime(time, "%d/%m/%Y %H:%M"), '%H'))
+    dayOfYear <- as.integer(format(strptime(time, "%d/%m/%Y"), "%j")) - 1
+    hourOfDay <- as.integer(format(strptime(time, "%d/%m/%Y %H:%M"), "%H"))
     hourOfDay[is.na(hourOfDay)] <- 0
 
     return(as.character(dayOfYear * 24 + hourOfDay + 1))
